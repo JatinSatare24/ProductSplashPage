@@ -1,19 +1,24 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🚀 ProductSplashPage
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## 🎯 Project Objective
+This project was built to demonstrate proficiency in **high-performance frontend layouts**. The focus was on creating a conversion-optimized splash page that balances visual aesthetics with technical performance, specifically focusing on typography, layout hierarchy, and responsive scaling.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🛠️ Technical Implementation
+* **Semantic HTML5:** Used a strict semantic structure (header, section, main, footer) to ensure the page is readable by screen readers and search engines.
+* **CSS Flexbox & Grid:** Implemented a hybrid layout system to handle complex hero sections and feature grids without using a CSS framework.
+* **Asset Optimization:** Focused on using modern image formats and lazy loading to ensure the "Splash" experience is near-instant.
+* **Mobile-First Responsiveness:** Utilized custom media queries to ensure the Call-to-Action (CTA) elements remain prominent on mobile devices.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🔍 Key Challenges Solved
+* **Visual Hierarchy:** Ensuring the most important product information is visible "above the fold" across different screen heights (laptops vs. tablets).
+* **CTA Placement:** Optimizing the button and form layouts for thumb-reachability on mobile devices.
+* **Consistency:** Maintaining exact padding and margin ratios to create a "premium" feel across the entire page.
 
-Happy Coding!
+## 🚧 Project Limitations
+* **Static Frontend:** This is a UI/UX demonstration. The newsletter signup forms and buttons are visual placeholders and are not currently connected to a backend.
+* **Vanilla Build:** I avoided Tailwind/Bootstrap to prove mastery of core CSS positioning and architecture.
+
+## 🚀 Local Setup
+1. Clone the repository to your local machine.
+2. Open `index.html` in your browser.
+3. Test the responsiveness by resizing the window or using the Browser Developer Tools (F12).
